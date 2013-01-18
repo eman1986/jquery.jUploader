@@ -3,7 +3,7 @@
     "title": "jUploader",
     "version": "2.0.0",
     "description": "This plugin allows you upload multiple files, without flash or HTML 5.",
-    "keywords": [ "jquery", "upload", "form" ],
+    "keywords": [ "upload", "form", "file-uploader", "multiple-uploads" ],
     "author": {
         "name": "eman1986",
         "url": "eman1986.github.com/jquery.jUploader/"
