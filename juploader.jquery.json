@@ -1,0 +1,30 @@
+{
+    "name": "jUploader",
+    "title": "jUploader",
+    "version": "2.0.0",
+    "description": "This plugin allows you upload multiple files, without flash or HTML 5.",
+    "keywords": [ "jquery", "upload", "form" ],
+    "author": {
+        "name": "eman1986",
+        "url": "eman1986.github.com/jquery.jUploader/"
+    },
+    "maintainers": [
+        {
+            "name": "eman1986",
+            "url": "eman1986.github.com/jquery.jUploader/"
+        }
+    ],
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "http://opensource.org/licenses/MIT"
+        }
+    ],
+    "bugs": "https://github.com/eman1986/jquery.jUploader/issues",
+    "homepage": "http://eman1986.github.com/jquery.jUploader/",
+    "docs": "http://eman1986.github.com/jquery.jUploader/",
+    "dependencies": {
+        "jquery": ">=1.7",
+        "jquery-ui": ">=1.8"
+    }
+}
