@@ -1,7 +1,8 @@
 /**
  * jquery.jUploader.js
- * @version 2.0 (06/26/2012)
+ * @version 2.0.1 (01/22/2013)
  * @Requirements: jQuery 1.7 or newer & jQuery UI 1.8 or newer
+ * @author Ed <https://github.com/eman1986/jquery.jUploader> 
  * @license http://opensource.org/licenses/mit-license.php MIT License (MIT)
  * CREDIT
  * Concept based off of: http://pixelcone.com/fileuploader/
@@ -11,10 +12,9 @@
 	/**
 	 * jQuery/jQuery UI version detection.
 	**/
-	var juiVersion = $.ui ? $.ui.version || "1.5.2" : null;
+	var juiVersion = $.ui ? $.ui.version || parseFloat("1.5.2") : null;
 	var jqVersion = jQuery.fn.jquery;
-
-	$.jUploader = {version: '2.0'};
+	$.jUploader = {version: '2.0.1'};
 	$.fn.jUploader = function(config){
 		
 		config = $.extend({}, {
@@ -44,7 +44,7 @@
 		}, config);
 		
 		//see if user is using recommended version of jQuery.
-		if (jqVersion < "1.7" || juiVersion < "1.8") {
+		if (jqVersion < "1.7" || juiVersion < parseFloat("1.8")) {
 			alert('jUploader requires jquery 1.7 or newer & jQuery UI 1.8 or newer. Please upgrade your copy of jQuery & jQuery UI.');
 		}
 
