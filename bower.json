@@ -1,0 +1,51 @@
+{
+  "name": "jquery.jUploader",
+  "version": "2.0.2",
+  "main": "dist/jquery.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "/css",
+    "/uploads",
+    "*.php",
+    "*.md",
+    "jquery-1.7.2.min.js",
+    "jquery-ui-1.8.20.min.js",
+    "juploader.jquery.json"
+  ],
+  "dependencies": {
+    "jquery": ">=1.7",
+    "jquery-ui": ">=1.8"
+  },
+  "homepage": "http://eman1986.github.io/jquery.jUploader/",
+  "author": {
+    "name": "Ed Lomonaco",
+    "url": "http://eman1986.github.io/jquery.jUploader/"
+  },
+  "maintainers": [
+    {
+    "name": "Ed Lomonaco",
+    "url": "http://eman1986.github.io/jquery.jUploader/"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/eman1986/jquery.jUploader.git"
+  },
+  "bugs": "https://github.com/eman1986/jquery.jUploader/issues",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "keywords": [
+    "jquery",
+    "file",
+    "upload",
+    "widget",
+    "multiple",
+    "selection",
+    "php"
+  ]
+}
