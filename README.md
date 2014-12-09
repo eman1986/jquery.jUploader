@@ -1,11 +1,11 @@
 jquery.jUploader
 ================
 
+
+**This is being rewritten to add more functionality and give you more freedom to do what you need to.**
+
+
 This plugin allows you upload multiple files, without flash or HTML 5.
-
-This is designed to work well with jquery ui.
-
-This plugin requires jQuery 1.7 or newer.
 
 API
 ----------
